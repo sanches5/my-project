@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/my-project/static/css/main.c706af31.chunk.css",
-    "main.js": "/my-project/static/js/main.231be8a4.chunk.js",
-    "main.js.map": "/my-project/static/js/main.231be8a4.chunk.js.map",
-    "runtime-main.js": "/my-project/static/js/runtime-main.cf8edc1b.js",
-    "runtime-main.js.map": "/my-project/static/js/runtime-main.cf8edc1b.js.map",
-    "static/js/2.8134367c.chunk.js": "/my-project/static/js/2.8134367c.chunk.js",
-    "static/js/2.8134367c.chunk.js.map": "/my-project/static/js/2.8134367c.chunk.js.map",
-    "static/js/3.e9c9d82b.chunk.js": "/my-project/static/js/3.e9c9d82b.chunk.js",
-    "static/js/3.e9c9d82b.chunk.js.map": "/my-project/static/js/3.e9c9d82b.chunk.js.map",
+    "main.css": "/my-project/static/css/main.38f53bc7.chunk.css",
+    "main.js": "/my-project/static/js/main.7b523b82.chunk.js",
+    "main.js.map": "/my-project/static/js/main.7b523b82.chunk.js.map",
+    "runtime-main.js": "/my-project/static/js/runtime-main.8515dc53.js",
+    "runtime-main.js.map": "/my-project/static/js/runtime-main.8515dc53.js.map",
+    "static/js/2.2f085d4c.chunk.js": "/my-project/static/js/2.2f085d4c.chunk.js",
+    "static/js/2.2f085d4c.chunk.js.map": "/my-project/static/js/2.2f085d4c.chunk.js.map",
+    "static/js/3.66da198f.chunk.js": "/my-project/static/js/3.66da198f.chunk.js",
+    "static/js/3.66da198f.chunk.js.map": "/my-project/static/js/3.66da198f.chunk.js.map",
     "index.html": "/my-project/index.html",
-    "static/css/main.c706af31.chunk.css.map": "/my-project/static/css/main.c706af31.chunk.css.map",
-    "static/js/2.8134367c.chunk.js.LICENSE.txt": "/my-project/static/js/2.8134367c.chunk.js.LICENSE.txt"
+    "static/css/main.38f53bc7.chunk.css.map": "/my-project/static/css/main.38f53bc7.chunk.css.map",
+    "static/js/2.2f085d4c.chunk.js.LICENSE.txt": "/my-project/static/js/2.2f085d4c.chunk.js.LICENSE.txt",
+    "static/media/tasks-manager.5495b8eb.svg": "/my-project/static/media/tasks-manager.5495b8eb.svg",
+    "static/media/todo-list.e14c1a3d.svg": "/my-project/static/media/todo-list.e14c1a3d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cf8edc1b.js",
-    "static/js/2.8134367c.chunk.js",
-    "static/css/main.c706af31.chunk.css",
-    "static/js/main.231be8a4.chunk.js"
+    "static/js/runtime-main.8515dc53.js",
+    "static/js/2.2f085d4c.chunk.js",
+    "static/css/main.38f53bc7.chunk.css",
+    "static/js/main.7b523b82.chunk.js"
   ]
 }

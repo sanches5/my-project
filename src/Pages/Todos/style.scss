@@ -1,0 +1,123 @@
+.todos {
+  width: 100%;
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+.buttonSorter {
+  width: 100px;
+  height: 40px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 2px solid rgba(0,0,0, .5);
+  background-color: rgba(14, 162, 225, 0.5);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+    background-color: rgba(14, 193, 225, 0.8);
+  }
+}
+
+.todosList {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  height: 700px;
+  overflow-y: auto;
+}
+
+.sorterUp {
+  background-color: black;
+  position: relative;
+  top: -8px;
+  border-radius: 6px;
+  width: 15px;
+  height: 3px;
+  transform: rotate(90deg);
+
+  &:after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    transform: rotate(40deg);
+    border-radius: 6px;
+    width: 12px;
+    height: 3px;
+  }
+
+  &:before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+    transform: rotate(-40deg);
+    border-radius: 6px;
+    width: 12px;
+    height: 3px;
+  }
+
+  &.completed:after {
+    background-color: #28ff28;
+  }
+
+  &.completed:before {
+    background-color: #28ff28;
+  }
+
+  &.completed{
+    background-color: #28ff28;
+  }
+}
+
+.sorterDown {
+  background-color: black;
+  position: relative;
+  top: 8px;
+  border-radius: 6px;
+  width: 15px;
+  height: 3px;
+  transform: rotate(90deg);
+
+  &:after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    transform: rotate(-40deg);
+    border-radius: 6px;
+    width: 12px;
+    height: 3px;
+  }
+  &:before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    left: 5px;
+    bottom: 3px;
+    transform: rotate(40deg);
+    border-radius: 6px;
+    width: 12px;
+    height: 3px;
+  }
+
+  &.notCompleted:after {
+    background-color: #28ff28;
+  }
+
+  &.notCompleted:before {
+    background-color: #28ff28;
+  }
+
+  &.notCompleted{
+    background-color: #28ff28;
+  }
+}

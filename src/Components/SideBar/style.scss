@@ -1,0 +1,33 @@
+.side-bar {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  width: 130px;
+  padding: 20px 10px;
+  margin-right: 20px;
+  min-height: 100vh;
+}
+
+.link-page {
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #C1C7D0;
+  margin: 0 0 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.link-page:last-child {
+  margin: 0;
+}
+
+.link-page svg {
+  margin-right: 8px;
+}
+
+.link-page-active {
+  color: #22B573;
+}

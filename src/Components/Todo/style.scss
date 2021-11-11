@@ -1,0 +1,73 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid rgba(63, 62, 62, 0.5);
+  margin: 15px 0;
+  border-radius: 8px;
+
+  .buttonDelete {
+    display: block;
+    width: 120px;
+    min-width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid rgba(0,0,0, .5);
+    background-color: rgba(225, 14, 21, 0.5);
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0,0,0, .2);
+      background-color: rgba(225, 14, 46, 0.8);
+    }
+  }
+
+  .textTodo {
+    margin: 0 15px;
+    max-width: 70%;
+    min-width: 120px;
+    word-break: break-all;
+  }
+
+  .check {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    min-height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgba(49, 48, 48, 0.5);
+    position: relative;
+    cursor: pointer;
+
+    &.complete {
+      &:after {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 3px;
+        position: absolute;
+        right: 5px;
+        top: 9px;
+        border-radius: 20px;
+        background-color: #28ff28;
+        transform: rotate(70deg);
+      }
+
+      &:before {
+        content: "";
+        display: block;
+        border-radius: 20px;
+        width: 24px;
+        height: 3px;
+        position: absolute;
+        left: 1px;
+        top: 6px;
+        transform: rotate(109deg);
+        background-color: #28ff28;
+      }
+    }
+  }
+}

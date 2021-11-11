@@ -1,0 +1,41 @@
+.formTaskCreate {
+  margin: 20px auto;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+
+  .input {
+    width: 100%;
+    min-width: 100px;
+    max-width: 500px;
+    height: 40px;
+    font-size: 16px;
+    outline-color: rgba(20, 177, 238, .7);
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-right: 30px;
+
+    &:focus {
+      border: none;
+      padding: 15px;
+    }
+  }
+
+  .buttonCreateTask {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid rgba(0,0,0, .5);
+    background-color: rgba(67, 225, 14, 0.5);
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0,0,0, .2);
+      background-color: rgba(67, 225, 14, 0.6);
+    }
+  }
+}
+

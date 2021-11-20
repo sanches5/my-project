@@ -1,0 +1,22 @@
+.inputFile {
+  display: none;
+}
+
+.fileUpload {
+  display: inline-block;
+  margin: 0 5px;
+  width: 70px;
+  height: 40px;
+  padding-top: 8px;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(224, 224, 224, 0.6);
+    box-shadow: 0 0 6px rgba(0,0,0, .5);
+  }
+}

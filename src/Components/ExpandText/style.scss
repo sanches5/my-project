@@ -1,0 +1,28 @@
+.textPost {
+  width: 506px;
+  word-break: break-all;
+  height: max-content;
+  margin: 55px 0 15px 0;
+  white-space: pre;
+
+  &.preVisible {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.expandTextPost {
+  cursor: pointer;
+  color: #28d8ff;
+  width: max-content;
+  transition: 4s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  &:hover {
+    color: #288cff;
+  }
+}

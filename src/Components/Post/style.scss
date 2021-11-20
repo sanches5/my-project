@@ -1,0 +1,56 @@
+.post {
+  border: 2px solid #898585c4;
+  padding: 10px;
+  width: 530px;
+  height: max-content;
+  margin: 15px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+
+  .removePost {
+    float: right;
+  }
+
+  .postImage {
+    display: block;
+    margin: 20px auto;
+    max-width: 350px;
+    max-height: 450px;
+  }
+
+  .formComment {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .comments {
+    .comment {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0;
+      border: 2px solid #898585c4;
+      border-radius: 6px;
+      padding: 5px;
+
+      .userComment {
+        display: flex;
+
+        .userNamesComment {
+          display: flex;
+          font-size: 15px;
+
+          & > p {
+            margin: 0 5px;
+          }
+        }
+
+        .textComment {
+          margin: 10px 20px 0 5px;
+          font-size: 13px;
+          color: #535354b3;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

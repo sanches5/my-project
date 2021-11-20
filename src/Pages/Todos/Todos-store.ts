@@ -57,7 +57,7 @@ class Todo {
 
     getTodos() {
         const todosLocal: string | null = localStorage.getItem("todos");
-        this.todos = JSON.parse(todosLocal || "") || [];
+        this.todos = todosLocal ? JSON.parse(todosLocal || "") : [];
         this.initialTodos = this.todos;
         return this.todos;
     }

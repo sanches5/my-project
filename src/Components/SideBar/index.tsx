@@ -5,7 +5,7 @@ import { ReactComponent as TodoIcon }  from '../../image/todo-list.svg';
 import { ReactComponent as TasksIcon }  from '../../image/tasks-manager.svg';
 
 const listPages:{title: string, Icon: React.FC<React.SVGProps<SVGSVGElement>>}[] = [
-    {title: "Dashboard", Icon: TodoIcon},
+    {title: "Profile", Icon: TodoIcon},
     {title: "Customers", Icon: TodoIcon},
     {title: "Remittance", Icon: TodoIcon},
     {title: "P2P", Icon: TodoIcon},

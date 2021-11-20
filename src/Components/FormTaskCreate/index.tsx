@@ -16,7 +16,7 @@ const FormTaskCreate: FC<FormTaskProps> = ({handleSaveTask, textTask, setTextTas
             onChange={(e) => setTextTask(e.target.value)}
         />
         <button
-            className={"buttonCreateTask"}
+            className={"addButton"}
             onClick={handleSaveTask}
         >create task
         </button>

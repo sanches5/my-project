@@ -1,9 +1,13 @@
 import React from 'react';
 import './style.scss';
 
-const Input = ({textTask, setTextTask}:{textTask:string, setTextTask: (v: string) => void})  => {
-    return <input type="text" className={"input"} value={textTask} onChange={(e) => setTextTask(e.target.value)}/>
-
+const Input = ({value, onChange}: { value: string, onChange: (v: string) => void }) => {
+    return <input
+        type="text"
+        className={"input"}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+    />
 }
 
 export default Input;

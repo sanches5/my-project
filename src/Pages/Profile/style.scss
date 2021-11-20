@@ -1,0 +1,26 @@
+.profile {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 20px;
+
+  .userProfile {
+    display: flex;
+
+    .userInfo {
+      margin-left: 20px;
+      max-width: 600px;
+
+      .userNames {
+        display: flex;
+
+        h1:first-child {
+          margin-right: 15px;
+        }
+      }
+
+      .userBlock {
+        white-space: pre;
+      }
+    }
+  }
+}

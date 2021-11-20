@@ -38,7 +38,7 @@ const Todo: FC<TodoProps> = (
         >
         <div onClick={() => completedTodo(id)} className={`check ${complete ? "complete": ""}`}/>
         <p className={"textTodo"}>{title}</p>
-        <button className={"buttonDelete"} onClick={() => handleDeleteTask(id)}>delete</button>
+        <button className={"removeButton"} onClick={() => handleDeleteTask(id)}>delete</button>
     </div>)
 }
 

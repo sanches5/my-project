@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-project/static/css/main.2f72eb57.chunk.css",
+    "main.css": "/my-project/static/css/main.dc23750e.chunk.css",
     "main.js": "/my-project/static/js/main.a6fa0946.chunk.js",
     "main.js.map": "/my-project/static/js/main.a6fa0946.chunk.js.map",
     "runtime-main.js": "/my-project/static/js/runtime-main.cf901df3.js",
@@ -10,7 +10,7 @@
     "static/js/3.e9cf8a69.chunk.js": "/my-project/static/js/3.e9cf8a69.chunk.js",
     "static/js/3.e9cf8a69.chunk.js.map": "/my-project/static/js/3.e9cf8a69.chunk.js.map",
     "index.html": "/my-project/index.html",
-    "static/css/main.2f72eb57.chunk.css.map": "/my-project/static/css/main.2f72eb57.chunk.css.map",
+    "static/css/main.dc23750e.chunk.css.map": "/my-project/static/css/main.dc23750e.chunk.css.map",
     "static/js/2.244abb0c.chunk.js.LICENSE.txt": "/my-project/static/js/2.244abb0c.chunk.js.LICENSE.txt",
     "static/media/tasks-manager.5495b8eb.svg": "/my-project/static/media/tasks-manager.5495b8eb.svg",
     "static/media/todo-list.e14c1a3d.svg": "/my-project/static/media/todo-list.e14c1a3d.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.cf901df3.js",
     "static/js/2.244abb0c.chunk.js",
-    "static/css/main.2f72eb57.chunk.css",
+    "static/css/main.dc23750e.chunk.css",
     "static/js/main.a6fa0946.chunk.js"
   ]
 }
